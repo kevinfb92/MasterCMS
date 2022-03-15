@@ -1,0 +1,162 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-weight: 400;
+ }
+
+a{
+    color: black;
+}
+
+ul{
+    list-style: none;
+}
+
+html{
+    font-size: 16px;
+}
+nav{
+    background-color: gray;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    display: -webkit-flex;
+    display: flex;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav li:first-of-type{
+    margin-left: 0;
+}
+nav li{
+    flex-direction: column;
+    margin: 0 .5rem;
+    height: 40px;
+}
+nav li a {
+    line-height: 40px;
+}
+nav li:hover{
+    background-color: rgb(228, 228, 228);
+    cursor: pointer;
+}
+nav a.nav-brand{
+    font-size: 1.2rem;
+}
+
+h1{
+    margin: 1rem 0 0.5rem 0;
+}
+
+h2{
+    margin-top: 2rem;
+}
+
+main{
+    margin-top: 4rem;
+    flex: 2;
+}
+hr { background-color: rgb(224, 224, 224); height: 1px; border: 0; margin-top: 1rem;}
+
+
+img{
+    margin: 10px 0px;
+}
+
+img.responsive{width: 100%;
+}
+
+section{
+    vertical-align: top;
+    padding: 0 2rem;
+    margin-top: 1.5rem;
+    flex: 1;
+}
+
+.sidebar h2{
+    margin-bottom: 1rem;
+}
+
+.well{
+    border-radius: 5px;
+    background-color: rgb(231, 231, 231);
+    padding: 2rem 1.5rem;
+}
+
+.well form{
+    display: flex;
+}
+
+.well h2{
+    margin-top: 0;
+}
+
+.well.categories{
+    margin-top: 1rem;
+}
+
+.well.categories ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.well.categories li{
+    margin-right: 1rem;
+}
+
+.searchBar{
+    flex: auto;
+    height: 30px;
+    border-width: 1px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+#boton-buscar{
+    padding: 0 0.5rem;
+    border-width: 1px;
+    height: 30px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    position: relative;
+    left:-2px;
+}
+
+.boton-leer{
+    border-width: 1px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 0 0.5rem;
+    margin: 1rem 0;
+}
+
+@media (max-width: 800px) {
+    .container {
+      -webkit-flex-direction: column;
+      flex-direction: column;
+      width: 95%;
+    }
+    section{
+        padding: 0;
+    }
+    .well form{
+        width: 90%;
+    }
+
+    .container.nav{
+        width: 100%;
+    }
+
+    .container.nav li{
+        flex: auto;
+        margin: 0;
+        text-align: center;
+    }
+  }
