@@ -19,6 +19,7 @@
         <nav class="nav-right">
             <a href="#" class="logo"><h2>MasterCMS Admin</h2></a>
             <ul>
+                <li><a href="../index.php">Volver a MasterCMS</a></li>
                 <li><a href="#"><i class="fa-solid fa-envelope"></i><i class="fa-solid fa-caret-down"></i></a></li>
                 <li><a href="#"><i class="fa-solid fa-bell"></i><i class="fa-solid fa-caret-down"></i></a></li>
                 <li><a href="#"><i class="fa-solid fa-user"></i><span> Kevin Folgar</span><i class="fa-solid fa-caret-down"></i></a></li>
@@ -30,11 +31,11 @@
                 <nav class="nav-left">            
                     <ul>
                         <li><a href="#"><i class="fa-solid fa-gauge"></i><span>Dashboard</span></a></li>
-                        <li><a href="#"><i class="fa-solid fa-chart-column"></i><span>Gráficas</span></a></li>
-                        <li><a href="#"><i class="fa-solid fa-table-cells"></i><span>Tablas</span></a></li>
-                        <li><a href="#"><i class="fa-solid fa-pen-to-square"></i><span>Formularios</span></a></li>
-                        <li><a href="#"><i class="fa-solid fa-desktop"></i><span>Bootstrap Elements</span></a></li>
-                        <li><a href="#"><i class="fa-solid fa-wrench"></i><span>Bootstrap Grid</span></a></li>
+                        <li><a href="#"><i class="fa-solid fa-pen-to-square"></i><span>Publicaciones</span></a></li>
+                        <li><a href="#"><i class="fa-solid fa-table-cells"></i><span>Categorías</span></a></li>
+                        <li><a href="#"><i class="fa-solid fa-message"></i><span>Comentarios</span></a></li>
+                        <li><a href="#"><i class="fa-solid fa-users"></i><span>Usuarios</span></a></li>
+                        <li><a href="#"><i class="fa-solid fa-user"></i><span>Perfil</span></a></li>
                         <li><a href="#"><i class="fa-solid fa-up-down"></i><span>Desplegable</span></a></li>
                         <li><a href="#"><i class="fa-solid fa-file"></i><span>Nueva página</span></a></li>
                         <li><a href="#"><i class="fa-solid fa-gauge"></i><span>Dashboard RTL</span></a></li>
